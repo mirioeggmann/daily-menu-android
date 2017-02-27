@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_7ac038ed994be260c6163024ce5387cdd47632ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.3.1_cfe2bc7d19c096146350bbc910cb026038dae0f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_b6bd09754343197b55ddf0333105dbbbaaaf2794/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.2.0_d32ede6acb972e4657351c396b766635e9bfa40a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_3b64074dfddce59d7069d54186de01615abbb052/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_8d829cbc4240189691a2e78fd54a2057abce4232/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.2.0_2b674ce25fdfcf39e63078a3d8b5fc82760276bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_d68989d4043690acd4f2b30a8b75146a97a7c2f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_cd905778044995ad0b0859a35fa49edbcc4a701b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_cb0581f123a4c6585588880506b65505075ae9fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e473f0624d19fc1b36c5d16493c019dca6bd35be">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5042420e8bb4173f22f977632023bae67668d6b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.2/a60c039ba54c73d1133b72178e1b04133c73d13d/adapter-rxjava-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.0.2_f61f0134b42315da4f3d8f0df4bcf586a075e9d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e26f9626425a743ceafd05bf4990603f63ea688">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cf74bf8ea91f70e41c54bbd51000d1baf45c569d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_3e5ae9db0cd61af92c8577ebc71e3ab8a7b4811e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_2b3bae5bf5f6911338312100693542595cd8f529/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_5eba9dfd1ef8a778c424a9f5e2670c0ec1978c60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_4803144255a849e409662cdfcf4fb186e21c18e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.2.0_706a52ecdab14fb5508e76002c65a67359d1c537/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_4b432ce41a75c14a2ca50e5518e365197cd2e4d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_cb41bbf3065af55746e4e720ffb97d6a16447580/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_33c91b96fe1fe4b573c9eb032b40090ddf8ffd73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.2.0_6aefc53dc4c336d807175c44a5374f747493ca0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.6.0_11608b4d0446e16f33173d9f4e59e08d4860d5e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.2.0_08501b82885fd5eae8a3cbb52c231aec5c406f7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/mirioeggmann/Documents/GitHub/daily-meal-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_4f0300307c1444a98239dd64fea031226b1784e5/classes.dex" />
+    </item>
+
+</items>
