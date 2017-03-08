@@ -1,5 +1,7 @@
 package ch.mirioeggmann.daily_meal_android.activity;
 
+import android.app.ActionBar;
+import android.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -7,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -39,8 +42,6 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Log.i("currentday",String.valueOf(new GregorianCalendar().get(Calendar.DAY_OF_WEEK)));
-
         mMenus = new ArrayList<>();
         mMenuAdapter = new MenuAdapter(R.layout.list_item, mMenus);
         mMenuRecyclerView = (RecyclerView)findViewById(R.id.menu_recycler_view);
@@ -71,15 +72,13 @@ public class HomeActivity extends AppCompatActivity {
 
                     @Override
                     public void onNext(MenuPlan menuPlan) {
-                        Log.i("Result", menuPlan.toString());
                         final TextView menuPlanDateTextView = (TextView) findViewById(R.id.menu_plan_date);
-                        menuPlanDateTextView.setText(menuPlan.getDate());
+                        SimpleDateFormat simpleDate =  new SimpleDateFormat("dd.MM.yyyy");
+                        menuPlanDateTextView.setText(simpleDate.format(menuPlan.getDate()));
                         final TextView restaurantNameTextView = (TextView) findViewById(R.id.restaurant_name);
                         restaurantNameTextView.setText(mRestaurantShortcut);
-                        Log.i("MenuArray Size", String.valueOf(menuPlan.getMenus().size()));
                         mMenus.addAll(menuPlan.getMenus());
                         mMenuAdapter.notifyDataSetChanged();
-                        Log.i("ItemCount",String.valueOf(mMenuAdapter.getItemCount()));
                     }
                 });
     }

@@ -30,14 +30,22 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
 
     @Override
     public void onBindViewHolder(MenuViewHolder holder, int position) {
-        TextView item = holder.item;
-        item.setText(mMenuDataset.get(position).getTitle()+System.getProperty("line.separator")
-        +mMenuDataset.get(position).getDescription()+System.getProperty("line.separator")
-        +mMenuDataset.get(position).getTrimmings()+System.getProperty("line.separator")
-        +mMenuDataset.get(position).getSidedish()+System.getProperty("line.separator")
-        +mMenuDataset.get(position).getProvenance()+System.getProperty("line.separator")
-        +"Intern:"+mMenuDataset.get(position).getPrice().getInternalPrice()+System.getProperty("line.separator")
-        +"Extern:"+mMenuDataset.get(position).getPrice().getExternalPrice());
+        TextView description = holder.description;
+        TextView title = holder.title;
+        TextView trimmings = holder.trimmings;
+        TextView provenance = holder.provenance;
+        TextView price = holder.price;
+
+        String trimmingsString = "";
+        for (String trimming : mMenuDataset.get(position).getTrimmings()) {
+            trimmingsString += trimming + " ";
+        }
+
+        description.setText(mMenuDataset.get(position).getDescription());
+        title.setText(mMenuDataset.get(position).getTitle());
+        trimmings.setText(trimmingsString);
+        provenance.setText(mMenuDataset.get(position).getProvenance());
+        price.setText( "Intern: " + mMenuDataset.get(position).getPrice().getInternalPrice() + " Extern: " + mMenuDataset.get(position).getPrice().getExternalPrice());
     }
 
     @Override
@@ -46,13 +54,21 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.MenuViewHolder
     }
 
     public class MenuViewHolder extends RecyclerView.ViewHolder {
-        //public TextView title;
-        //public TextView description;
-        public TextView item;
+        public TextView description;
+        public TextView title;
+        public TextView trimmings;
+        //public TextView sidedish;
+        public TextView provenance;
+        public TextView price;
 
         public MenuViewHolder(View itemView) {
             super(itemView);
-            item = (TextView) itemView.findViewById(R.id.row_item);
+
+            this.description = (TextView) itemView.findViewById(R.id.menu_description);
+            this.title = (TextView) itemView.findViewById(R.id.menu_title);
+            this.trimmings = (TextView) itemView.findViewById(R.id.menu_trimmings);
+            this.provenance = (TextView) itemView.findViewById(R.id.menu_provenance);
+            this.price = (TextView) itemView.findViewById(R.id.menu_price);
         }
     }
 }

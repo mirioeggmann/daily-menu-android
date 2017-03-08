@@ -2,18 +2,19 @@ package ch.mirioeggmann.daily_meal_android.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Date;
 import java.util.List;
 
 public class MenuPlan {
-    private String date;
+    private Date date;
     @SerializedName("offers")
     private List<Menu> menus = null;
 
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(String date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 
