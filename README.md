@@ -1,3 +1,3 @@
-# daily-meal-android
+# Daily Meal Plan
 
-http://engineering.meetme.com/2014/03/best-practices-for-consuming-apis-on-android/
+\#TODO
