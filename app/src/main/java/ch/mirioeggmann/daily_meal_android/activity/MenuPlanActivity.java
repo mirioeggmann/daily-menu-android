@@ -40,6 +40,9 @@ import rx.schedulers.Schedulers;
 public class MenuPlanActivity extends AppCompatActivity {
 
     /**
+     * Ignore this, trash code atm...
+     */
+    /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
      * fragments for each of the sections. We use a
      * {@link FragmentPagerAdapter} derivative, which will keep every

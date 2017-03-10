@@ -30,8 +30,8 @@ import rx.schedulers.Schedulers;
 
 public class HomeActivity extends AppCompatActivity {
     private String mRestaurantShortcut = "restaurant-engehalde";
+    // make own api that mo - fr visible and not just the current day 0 until friday..
     private int mDay = 0;
-    // make own api that mo - fr ersichtlich und nicht immer auf 0
     private List<Menu> mMenus;
     private RecyclerView mMenuRecyclerView;
     private RecyclerView.Adapter mMenuAdapter;
@@ -62,7 +62,7 @@ public class HomeActivity extends AppCompatActivity {
                 .subscribe(new Subscriber<MenuPlan>() {
                     @Override
                     public void onCompleted() {
-                        Log.i("Finished call", "Rx Call is finished");
+                        Log.i("Finished call", "Got menu plan.");
                     }
 
                     @Override
