@@ -1,0 +1,17 @@
+# Setup
+title:        Daily Menu
+tagline:      A simple android app to get the daily menus of all sv- and zfv-restaurants
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       Mirio Eggmann
+  url:        http://mirioeggmann.ch
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown
