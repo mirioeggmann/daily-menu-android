@@ -3,9 +3,16 @@
 
   {% include head.html %}
 
-  <body class="use-full-height">
-    <div class="use-full-height">
-      {% include page-header.html %}
-    </div>
+  <body>
+    {% include page-header.html %}
+
+    <section class="main-content">
+
+      {{ content }}
+
+      {% include page-footer.html %}
+
+    </section>
+
   </body>
 </html>
